@@ -1,0 +1,23 @@
+{
+    "name": "theme-pilgrim",
+    "displayName": "pilgrim",
+    "description": "Based on toothpaste, with changes to commentary",
+    "version": "0.0.1",
+    "publisher": "pilgrim",
+    "icon": "pilgrim.png",
+    "engines": {
+        "vscode": "^0.10.10"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "pilgrim",
+                "uiTheme": "vs-dark",
+                "path": "./themes/pilgrim.tmTheme"
+            }
+        ]
+    }
+}
